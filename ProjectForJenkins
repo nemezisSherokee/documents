@@ -1,0 +1,42 @@
+Project to do : 
+
+	Creer un MicroServices projet avec Eclipse
+
+	Creer un repository sur BitBucket
+
+	Creer un pipeLine sur Jenkins
+
+	Lier le pipeLine au Repository de BitBucket
+
+	Activer le WebHook sur Jenkins et Bitbukets
+o	Telecharger le Jenkins Bitbucket sur Jenkins
+o	https://mohamicorp.atlassian.net/wiki/spaces/DOC/pages/381419546/Configuring+Webhook+To+Jenkins+for+Bitbucket+Bitbucket+Branch+Source+Plugin
+
+	Creer un Jenkinsfile minimal pour s'assurer que la liaison fonctionne
+o	creer le ficher
+o	creer l'etape du clone
+o	faire une modification minimale sur Bitbucket
+o	confirmer que cela fonctionne reellement
+
+	Creer les differentes etapes du pipeline
+o	Clone
+o	Build - Skip Test
+o	Test 
+o	Package
+o	Deploy localement
+o	confirmer que cela fonctionne reellement
+
+	Telecharger le projet créé avec Eclipse sur Bitbucket et s'assurer que ca fonctionne effectivement
+
+	Ajouter une etape au Pipeline pour creer une image á partir du Jar
+
+	Ajouter une etape au Pipeline pour Enregistrer l'image créée  sur le dockerHub
+
+	Lier le projet á une base de donnée Mysql et ajouter des test
+
+	Ajouter Mysql pour la liaison á la base de donnée
+
+	Ajouter un docker compose pour faire fonctionner plusieurs MicroServices et les tester
+
+
+
